@@ -7,14 +7,6 @@ class App {
     this.tanggal = document.getElementById("tanggal");
     this.waktuJemput = document.getElementById("waktuJemput");
     this.jumlahPenumpang = document.getElementById("jumlahPenumpang");
-
-    console.log(this.carContainerElement);
-    console.log(this.clearButton);
-    console.log(this.loadButton);
-    console.log(this.tipeDriver);
-    console.log(this.tanggal);
-    console.log(this.waktuJemput);
-    console.log(this.jumlahPenumpang);
   }
 
   async init() {
